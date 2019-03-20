@@ -114,23 +114,18 @@ function createStatsObj(array){
 	};
 };
 
-function findMatches(object){
+function findMatches(array){
 	let props = '';
 	let idObj = {
 		tech_fair: [],
 		workshop: []
 	};
 
-	for(var event in object){
-		let currReviews = object[event].reviews;
-		if(event == "Mini-Workshops"){
-			for(let i = 0; i < currReviews.length; i++){
-				idObj.workshop.push(currReviews[i].id);
-			};
-		} else if(event == "Technology Fairs"){
-			for(let i = 0; i < currReviews.length; i++){
-				idObj.tech_fair.push(currReviews[i].id);
-			};
+	for(var i in array){
+		if(array[i].event == "Mini-Workshops"){
+			idObj.workshop.push(array[i].id);
+		} else if(array[i].event == "Technology Fairs"){
+			idObj.tech_fair.push(array[i].id);
 		} else { continue; };
 	};
 
@@ -155,6 +150,6 @@ var scoresObj = createPropObj(trimmed);
 
 // console.log(idScores);
 // console.log(statsObj);
-// for(var key in scoresObj){console.log(key, JSON.stringify(scoresObj[key], null, 4));};
+for(var key in scoresObj){console.log(key, JSON.stringify(scoresObj[key].statistics, null, 4));};
 // console.log(JSON.stringify(scoresObj, null, 4));
-console.log(findMatches(scoresObj));
+// console.log(findMatches(trimmed));
