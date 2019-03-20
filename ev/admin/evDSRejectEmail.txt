@@ -1,0 +1,104 @@
+--CALL-EV-[INSERT RANDOM HASH]
+Content-Type: text/plain; charset="utf-8" 
+Content-Transfer-Encoding: 8bit
+
+Thank you for submitting a proposal to the Electronic Village Developers Showcase for the TESOL [INSERT YEAR] convention to be held in [INSERT LOCATION].
+ 
+This year, we had more proposals than presentation spots and so we were not able to accommodate all the proposals we received.  We regret to inform you that your proposal was not among those selected.
+ 
+Some presenters sent multiple proposals.  This notice only concerns the specific proposal listed below. If you receive an acceptance notice separately, that notice concerns the proposal mentioned specifically in that notice.
+
+Presentation Information
+----------------------------------
+
+Title:
+     [INSERT TITLE]
+
+Main Contact Email:
+     [INSERT CONTACT]
+     
+Presenters:
+[INSERT PRESENTERS]
+
+Abstract:
+     [INSERT ABSTRACT]
+
+Summary:
+     [INSERT SUMMARY]
+     
+[INSERT EDITABLE TEXT HERE]
+
+Sincerely,
+
+[INSERT LEAD NAME]
+Developers' Showcase Event Lead, [INSERT YEAR]
+ 
+--CALL-EV-[INSERT RANDOM HASH]
+Content-Type: text/html; charset="utf-8" 
+Content-Transfer-Encoding: 8bit
+
+<html>
+<body>
+<table border="0" align="center" cellspacing="0" cellpadding="0" width="800">
+<tr>
+<td><img src="http://call-is.org/ev/tesol_banner.jpg" height="197" width="800" /></td>
+</tr>
+<tr>
+<td align="center" style="padding-top: 20px; padding-bottom: 20px"><span style="font-size: 24pt; font-weight: bold">CALL-IS Electronic Village Events ([INSERT YEAR])<br /><br /><span style="font-size: 18pt; font-weight: bold">Developers Showcase (Decision Notice)</span></td>
+</tr>
+<tr>
+<td style="padding-top: 20px">
+Thank you for submitting a proposal to the Electronic Village Developers Showcase for the TESOL [INSERT YEAR] convention to be held in [INSERT LOCATION].<br /><br />
+
+This year, we had more proposals than presentation spots and so we were not able to accommodate all the proposals we received.  We regret to inform you that your proposal was not among those selected.<br /><br />
+
+Some presenters sent multiple proposals. This notice only concerns the specific proposal listed below. If you receive an acceptance notice separately, that notice concerns the proposal mentioned specifically in that notice.<br /><br />
+</td>
+</tr>
+<tr>
+<td style="padding-top: 20px; font-weight: bold; border-top: solid 1px #CCCCCC">Presentation Information</td>
+</tr>
+<tr>
+<td style="padding: 20px">
+<table border="0" cellspacing="0" cellpadding="5" width="100%">
+<tr>
+<td width="150" valign="top" style="font-weight: bold">Title:</td>
+<td width="610" style="padding-bottom: 10px">[INSERT TITLE]</td>
+</tr>
+<tr>
+<td width="150" valign="top" style="font-weight: bold">Main Contact Email:</td>
+<td width="610" style="padding-bottom: 10px">[INSERT CONTACT]</td>
+</tr>
+<tr>
+<td width="150" valign="top" style="font-weight: bold">Presenters:</td>
+<td width="610" style="padding-bottom: 10px">[INSERT PRESENTERS HTML]</td>
+</tr>
+<tr>
+<td width="150" valign="top" style="font-weight: bold">Abstract:</td>
+<td width="610" style="padding-bottom: 10px">[INSERT ABSTRACT]</td>
+</tr>
+<tr>
+<td width="150" valign="top" style="font-weight: bold">Summary:</td>
+<td width="610" style="padding-bottom: 10px">[INSERT SUMMARY]</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style="padding-top: 20px; border-top: solid 1px #CCCCCC">			
+[INSERT EDITABLE HTML HERE]
+</td>
+</tr>
+<tr>
+<td style="padding-top: 20px;">			
+Sincerely,<br><br>
+
+[INSERT LEAD NAME]<br>
+Developers' Showcase Event Coordinator, [INSERT YEAR]
+</td>
+</tr>
+</table>
+</body>
+</html>
+
+--CALL-EV-[INSERT RANDOM HASH]--

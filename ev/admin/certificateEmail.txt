@@ -1,0 +1,41 @@
+--CALL-EV-mixed-[INSERT RANDOM HASH]
+Content-Type: multipart/alternative; boundary="CALL-EV-alt-[INSERT RANDOM HASH]"
+
+--CALL-EV-alt-[INSERT RANDOM HASH]
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+Dear [INSERT NAME],
+
+Thank you for participating in the Electronic Village at TESOL [INSERT YEAR]. Attached you will find the digital version of your certificate of participation for the following session:
+
+   Title: [INSERT TITLE]
+   Date: [INSERT DATE]
+   Time: [INSERT START] - [INSERT END]
+
+If you have any questions about this certificate, please email [INSERT LEAD EMAIL].
+
+Thank you.
+
+--CALL-EV-alt-[INSERT RANDOM HASH]
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+<p>Dear [INSERT NAME],</p>
+<p>Thank you for participating in the Electronic Village at TESOL [INSERT YEAR]. Attached you will find the digital version of your certificate of participation for the following session:</p>
+<p>&nbsp; &nbsp; Title: [INSERT TITLE]</p>
+<p>&nbsp; &nbsp; Date: [INSERT DATE]</p>
+<p>&nbsp; &nbsp; Time: [INSERT START] - [INSERT END]</p>
+<p>If you have any questions about this certificate, please email <a href="mailto:[INSERT LEAD EMAIL]">[INSERT LEAD EMAIL]</a>.</p>
+<p>Thank you.</p>
+
+--CALL-EV-alt-[INSERT RANDOM HASH]--
+
+--CALL-EV-mixed-[INSERT RANDOM HASH]
+Content-Type: application/pdf; name="EV_Certificate.pdf"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment
+
+[INSERT PDF FILE]
+
+--CALL-EV-mixed-[INSERT RANDOM HASH]--

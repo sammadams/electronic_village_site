@@ -1,0 +1,4 @@
+confYear = 2018
+confLocation = Chicago
+confStartDate = 20180322
+confEndDate = 20180325

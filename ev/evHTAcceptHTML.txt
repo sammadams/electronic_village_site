@@ -1,0 +1,47 @@
+<table border="0" align="center" cellspacing="0" cellpadding="0" width="800">
+	<tr>
+		<td><img src="http://call-is.org/ev/tesol_banner.jpg" height="197" width="800" /></td>
+	</tr>
+	<tr>
+		<td align="center" style="padding-top: 20px; padding-bottom: 20px"><span style="font-size: 24pt; font-weight: bold">CALL-IS Electronic Village Events ([INSERT YEAR])<br /><br /><span style="font-size: 18pt; font-weight: bold">Hot Topics (Acceptance Notice)</span></td>
+	</tr>
+	<tr>
+		<td style="padding-top: 20px; padding-bottom: 20px">
+			Congratulations! The proposal listed below has been placed on the wait list for the Computer-Aided Language Learning Interest Section (CALL-IS) Electronic Village Hot Topics at TESOL in [INSERT LOCATION], [INSERT DATES].   Due to the number of proposals, this year’s process was competitive, but we accepted as many proposals as we could.  Being placed on the wait list means that if another accepted presenter cancels, we may be able to add you to the program. Confirmation that you can deliver the presentation is required.  Please read all the way through this message as it includes many important details.
+		</td>
+	</tr>
+	<tr>
+		<td style="padding-top: 20px; font-weight: bold; border-top: solid 1px #CCCCCC">Presentation Information</td>
+	</tr>
+	<tr>
+		<td style="padding: 20px">
+			<table border="0" cellspacing="0" cellpadding="5" width="100%">
+				<tr>
+					<td width="150" valign="top" style="font-weight: bold; padding">Title:</td>
+					<td width="600" style="padding-bottom: 10px">[INSERT TITLE]</td>
+				</tr>
+				<tr>
+					<td width="200" valign="top" style="font-weight: bold">Main Contact Email:</td>
+					<td width="600" style="padding-bottom: 10px">[INSERT CONTACT]</td>
+				</tr>
+				<tr>
+					<td width="200" valign="top" style="font-weight: bold">Presenters:</td>
+					<td width="600" style="padding-bottom: 10px">[INSERT PRESENTERS HTML]</td>
+				</tr>
+				<tr>
+					<td width="200" valign="top" style="font-weight: bold">Abstract:</td>
+					<td width="600" style="padding-bottom: 10px">[INSERT ABSTRACT]</td>
+				</tr>
+				<tr>
+					<td width="200" valign="top" style="font-weight: bold">Summary:</td>
+					<td width="600" style="padding-bottom: 10px">[INSERT SUMMARY]</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="padding-top: 20px; border-top: solid 1px #CCCCCC">			
+			[INSERT EDITABLE HTML HERE]
+		</td>
+	</tr>
+</table>

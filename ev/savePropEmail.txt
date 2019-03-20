@@ -1,0 +1,108 @@
+--CALL-EV-[INSERT RANDOM HASH]
+Content-Type: text/plain; charset="utf-8" 
+Content-Transfer-Encoding: 8bit
+
+Thank you for submitting a proposal to the Electronic Village. We have received your submission. For your reference, the information you submitted is listed below.
+
+If you want to edit your submission, you may do so up until the submission deadline. Please go to http://call-is.org/ev/edit.php?id=[INSERT PROP ID] and enter the main contact email and your password to edit your submission.
+
+If you have questions about your submission, or other general questions about the [INSERT PROP TYPE] event, please contact [INSERT TYPE EMAIL].
+
+Submitted Information
+---------------------------------------
+Title:
+     [INSERT TITLE]
+
+Main Contact Email:
+     [INSERT MAIN CONTACT]
+
+Presenters:
+[INSERT PRESENTERS]
+[INSERT TIMES]
+[INSERT TOPICS]
+[INSERT COMPUTER PREFERENCE]
+Summary:
+     [INSERT SUMMARY]
+
+Abstract:
+     [INSERT ABSTRACT]
+
+Comments to Event Organizers:
+     [INSERT COMMENTS]
+
+--CALL-EV-[INSERT RANDOM HASH]
+Content-Type: text/html; charset="utf-8" 
+Content-Transfer-Encoding: 8bit
+
+<table border="0" align="center" cellspacing="0" cellpadding="0" width="800">
+	<tr>
+		<td><img src="http://call-is.org/ev/tesol_banner.jpg" height="298" width="800" /></td>
+	</tr>
+	<tr>
+		<td align="center" style="padding-top: 20px; padding-bottom: 20px"><span style="font-size: 24pt; font-weight: bold">CALL-IS Electronic Village Events ([INSERT YEAR])<br /><br /><span style="font-size: 18pt; font-weight: bold">[INSERT PROP TYPE] (Submission Confirmation)</span></td>
+	</tr>
+	<tr>
+		<td style="padding: 20px">Thank you for submitting a proposal to the Electronic Village. We have received your submission. For your reference, the information you submitted is listed below.<br /><br />If you want to edit your submission, you may do so up until the submission deadline. Please go to <a href="http://call-is.org/ev/edit.php?id=[INSERT PROP ID]">http://call-is.org/ev/edit.php?id=[INSERT PROP ID]</a> and enter the main contact email and your password to edit your submission.<br /><br />If you have questions about your submission, or other general questions about the [INSERT PROP TYPE] event, please contact <a href="mailto:[INSERT TYPE EMAIL]">[INSERT TYPE EMAIL]</a>.</td>
+	</tr>
+	<tr>
+		<td style="padding-top: 20px; font-weight: bold; font-size: 14pt">Submitted Information</td>
+	</tr>
+	<tr>
+		<td style="border-top: solid 1px #CCCCCC; padding: 20px">
+			<table border="0" cellspacing="0" cellpadding="0" width="100%">
+				<tr>
+					<td width="50" valign="top" style="font-weight: bold">Title:</td>
+					<td width="710">[INSERT TITLE]</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="border-top: solid 1px #CCCCCC; padding: 20px">
+			<span style="font-weight: bold">Presenters</span><br />
+			<table border="0" cellspacing="0" cellpadding="5" width="100%">
+				<tr>
+					<td style="font-weight: bold; font-size: 10pt; text-align: center; width: 100px; border-bottom: solid 1px #000000">Main Contact</td>
+					<td style="font-weight: bold; font-size: 10pt; text-align: left; width: 300px; border-bottom: solid 1px #000000">Name</td>
+					<td style="font-weight: bold; font-size: 10pt; text-align: left; width: 300px; border-bottom: solid 1px #000000">Email</td>
+				</tr>
+				[INSERT PRESENTERS ROWS]
+			</table>
+		</td>
+	</tr>
+	[INSERT TIMES ROWS]
+	[INSERT TOPICS ROWS]
+	[INSERT COMPUTER PREFERENCE ROW]
+	<tr>
+		<td style="border-top: solid 1px #CCCCCC; padding: 20px">
+			<span style="font-weight: bold">Summary</span><br />
+			<table border="0" cellspacing="0" cellpadding="5" width="100%">
+				<tr>
+					<td>[INSERT SUMMARY]</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="border-top: solid 1px #CCCCCC; padding: 20px">
+			<span style="font-weight: bold">Abstract</span><br />
+			<table border="0" cellspacing="0" cellpadding="5" width="100%">
+				<tr>
+					<td>[INSERT ABSTRACT]</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="border-top: solid 1px #CCCCCC; padding: 20px">
+			<span style="font-weight: bold">Comments to Event Organizers</span><br />
+			<table border="0" cellspacing="0" cellpadding="5" width="100%">
+				<tr>
+					<td>[INSERT COMMENTS]</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+--CALL-EV-[INSERT RANDOM HASH]--

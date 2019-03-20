@@ -1,0 +1,41 @@
+propOpen = 0;
+propOpenDate = 20170801
+propCloseDate = 20170930
+confYear = 2018
+
+event0_name = Technology Fairs
+event0_summaryWords = 50
+event0_abstractWords = 100
+event0_showTimes = 1
+event0_showPrefs = 0
+
+event1_name = Developers Showcase
+event1_summaryWords = 50
+event1_abstractWords = 200
+event1_showTimes = 0
+event1_showPrefs = 0
+
+event2_name = Mobile Apps for Education Showcase
+event2_summaryWords = 50
+event2_abstractWords = 100
+event2_showTimes = 0
+event2_showPrefs = 0
+
+event3_name = Hot Topics
+event3_summaryWords = 50
+event3_abstractWords = 200
+event3_topics = Virtual Reality in Language Learning|Students and Digital Literacy|Online Professional Development for ESL/EFL Instructors|Intelligent CALL and the Future of Teaching|The Great CALL Debate - Is the term CALL outdated?
+event3_showTimes = 0
+event3_showPrefs = 0
+
+event4_name = Graduate Student Research
+event4_summaryWords = 50
+event4_abstractWords = 200
+event4_showTimes = 0
+event4_showPrefs = 0
+
+event5_name = Mini-Workshops
+event5_summaryWords = 50
+event5_abstractWords = 100
+event5_showTimes = 1
+event5_showPrefs = 0

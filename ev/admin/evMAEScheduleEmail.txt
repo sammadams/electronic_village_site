@@ -1,0 +1,144 @@
+--CALL-EV-[INSERT RANDOM HASH]
+Content-Type: text/plain; charset="utf-8" 
+Content-Transfer-Encoding: 8bit
+
+Acceptance Notice for Electronic Village Mobile Apps for Education Showcase Submission, TESOL [INSERT YEAR]
+ 
+Congratulations! The proposal listed below has been accepted for the Computer-Aided Language Learning Interest Section (CALL-IS) Electronic Village Mobile Apps for Education Showcase at TESOL in [INSERT LOCATION], [INSERT DATES].   Due to the number of proposals, this year's process was competitive, but we accepted as many proposals as we could.  Confirmation that you can deliver the presentation is required.  Please read all the way through this message as it includes many important details.
+
+Presentation Information
+----------------------------------------------
+Title:
+     [INSERT TITLE]
+
+Main Contact Email:
+     [INSERT CONTACT]
+     
+Presenters:   
+[INSERT PRESENTERS]
+
+Abstract:
+     [INSERT ABSTRACT]
+
+Summary:
+     [INSERT SUMMARY]
+
+Date Scheduled:
+     [INSERT SESSION DATE]
+     
+Time Scheduled:
+    [INSERT SESSION TIME]
+    
+[INSERT EDITABLE TEXT HERE]
+
+CONFIRMING YOUR PARTICIPATION
+You MUST confirm your participation by clicking on the link below BEFORE [INSERT CONFIRM DEADLINE]. If you do not confirm your participation by [INSERT CONFIRM DEADLINE], your presentation will be removed from the program.
+
+Confirm your participation: [INSERT CONFIRM LINK]
+
+PAPER CERTIFICATES
+In an effort to be more sustainable and reduce cost, the Electronic Village will ONLY be issuing digital certificates this year. If you MUST have a paper certificate, please click on the link below to request a paper certificate. We must receive your request by [INSERT CONFIRM DEADLINE].
+
+Request a paper certificate: [INSERT CERTIFICATE LINK]
+
+ELECTRONIC VILLAGE PASS
+TESOL has instituted a $10 EV Pass. All presenters and attendees MUST have this pass in order to enter the EV. You can purchase the pass when you register for the convention, or you can purchase the pass on-site.
+
+Sincerely,
+
+[INSERT LEAD NAME]
+Mobile Apps for Education Showcase Event Coordinators, [INSERT YEAR]
+
+--CALL-EV-[INSERT RANDOM HASH]
+Content-Type: text/html; charset="utf-8" 
+Content-Transfer-Encoding: 8bit
+
+<html>
+<body>
+<table border="0" align="center" cellspacing="0" cellpadding="0" width="800">
+<tr>
+<td><img src="http://call-is.org/ev/tesol_banner.jpg" height="197" width="800" /></td>
+</tr>
+<tr>
+<td align="center" style="padding-top: 20px; padding-bottom: 20px"><span style="font-size: 24pt; font-weight: bold">CALL-IS Electronic Village Events ([INSERT YEAR])<br /><br /><span style="font-size: 18pt; font-weight: bold">Mobile Apps for Education Showcase (Acceptance Notice)</span></td>
+</tr>
+<tr>
+<td style="padding-top: 20px; padding-bottom: 20px">
+Congratulations! Your proposal has been accepted for the Computer-Aided Language Learning Interest Section (CALL-IS) Electronic Village Mobile Apps for Education Showcase at TESOL in [INSERT LOCATION], [INSERT DATES].   Due to the number of proposals, this year's process was competitive, but we accepted as many proposals as we could.  Confirmation that you can deliver your presentation is required.  Please read all the way through this message as it includes many important details.
+</td>
+</tr>
+<tr>
+<td style="padding-top: 20px; font-weight: bold; border-top: solid 1px #CCCCCC">Presentation Information</td>
+</tr>
+<tr>
+<td style="padding: 20px">
+<table border="0" cellspacing="0" cellpadding="5" width="100%">
+<tr>
+<td width="150" valign="top" style="font-weight: bold; padding">Title:</td>
+<td width="610" style="padding-bottom: 10px">[INSERT TITLE]</td>
+</tr>
+<tr>
+<td width="150" valign="top" style="font-weight: bold">Main Contact Email:</td>
+<td width="610" style="padding-bottom: 10px">[INSERT CONTACT]</td>
+</tr>
+<tr>
+<td width="150" valign="top" style="font-weight: bold">Presenters:</td>
+<td width="610" style="padding-bottom: 10px">[INSERT PRESENTERS HTML]</td>
+</tr>
+<tr>
+<td width="150" valign="top" style="font-weight: bold">Abstract:</td>
+<td width="610" style="padding-bottom: 10px">[INSERT ABSTRACT]</td>
+</tr>
+<tr>
+<td width="150" valign="top" style="font-weight: bold">Summary:</td>
+<td width="610" style="padding-bottom: 10px">[INSERT SUMMARY]</td>
+</tr>
+<tr>
+<td width="150" valign="top" style="font-weight: bold">Date:</td>
+<td width="610" style="padding-bottom: 10px">[INSERT SESSION DATE]</td>
+</tr>
+<tr>
+<td width="150" valign="top" style="font-weight: bold">Time:</td>
+<td width="610" style="padding-bottom: 10px">[INSERT SESSION TIME]</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style="padding-top: 20px; border-top: solid 1px #CCCCCC">			
+[INSERT EDITABLE HTML HERE]
+</td>
+</tr>
+<tr>
+<td style="padding-top: 20px;">
+<p><strong>CONFIRMING YOUR PARTICIPATION</strong></p>
+<p>You <strong>must</strong> confirm your participation by clicking on the link below <strong>before [INSERT CONFIRM DEADLINE]</strong>. <span style="color: red; font-weight: bold;">If you do not confirm your participation by [INSERT CONFIRM DEADLINE], your presentation will be removed from the program.</span></p>
+<p><strong>Confirm your participation:</strong> <a href="[INSERT CONFIRM LINK]">[INSERT CONFIRM LINK]</a></p>
+</td>
+</tr>
+<tr>
+<td style="padding-top: 20px;">
+<p><strong>PAPER CERTIFICATES</strong></p>
+<p>In an effort to be more sustainable and reduce cost, the Electronic Village will <strong>only</strong> be issuing digital certificates this year. If you <strong>must</strong> have a paper certificate, please click on the link below to request a paper certificate. We must receive your request by [INSERT CONFIRM DEADLINE].</p>
+<p><strong>Request a paper certificate:</strong> <a href="[INSERT CERTIFICATE LINK]">[INSERT CERTIFICATE LINK]</a></p>
+</td>
+</tr>
+<tr>
+<td style="padding-top: 20px;">
+<p><strong>ELECTRONIC VILLAGE PASS</strong></p>
+<p>TESOL has instituted a $10 EV Pass. All presenters and attendees <strong>must</strong> have this pass in order to enter the EV. You can purchase the pass when you register for the convention, or you can purchase the pass on-site.</p>
+</td>
+</tr>
+<tr>
+<td style="padding-top: 20px;">
+Sincerely,<br><br>
+
+[INSERT LEAD NAME]<br>
+Mobile Apps for Education Showcase Event Coordinators, [INSERT YEAR]		
+</td>
+</tr>
+</table>
+</body>
+</html>
+
+--CALL-EV-[INSERT RANDOM HASH]--
