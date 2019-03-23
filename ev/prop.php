@@ -1,6 +1,7 @@
 <?php
-	include_once('../../ev_config.php');
-	include_once('../../ev_library.php');
+	//include_once('../../ev_config.php');
+	//include_once('../../ev_library.php');
+	include_once('./ev_dev.php');
 	
 	if(!$propOpen) redirect('propClosed.php');
 

@@ -1,6 +1,7 @@
 var stats = require('./statistics.js');
 var db_reviews = require('./reviews_all.json');
-var db_workshop = require('./reviews_workshops.json');
+// var db_workshop = require('./reviews_workshops.json');
+var db_props = require('./reviews_proposals.json');
 
 ///// FUNCTIONS /////
 
@@ -12,18 +13,23 @@ function processData(array){
 };
 
 // trim each row to only event, id', reviewer, review; push object to array
-function trimScores(array) {
+function trimScores(array, statusObject) {
 	var scoreArray = [];
 	for(let i = 0; i < array.length; i++){
 		let current = array[i];
+		let id = array[i]['prop_id'];
 
 		let review = current.review.split('|').map(s => parseInt(s));
+
+		let status = statusObject[id];
+
 
 		scoreArray.push({
 			event: current.event,
 			id: current.prop_id,
 			reviewer: current.reviewer,
-			review
+			review,
+			status
 		});
 	};
 
@@ -42,7 +48,8 @@ function createPropObj(array){
 				scores: [],
 				raters: [],
 				mean: 0,
-				stdev: 0
+				stdev: 0,
+				status: cur.status
 			};
 		};
 		let key = cur.id;
@@ -89,7 +96,15 @@ function createPropObj(array){
 function createStatsObj(array){
 	var meansArr = [];
 	var stdevsArr = [];
+	var acceptedArr = [];
+	var rejectedArr = [];
+
 	array.forEach(obj => {
+		if(obj.status == 'accepted'){
+			acceptedArr.push(parseInt(obj.mean));
+		} else if (obj.status == 'rejected'){
+			rejectedArr.push(parseInt(obj.mean));
+		};
 		meansArr.push(parseInt(obj.mean));
 		stdevsArr.push(parseInt(obj.stdev));
 	});
@@ -100,11 +115,26 @@ function createStatsObj(array){
 		if(score < mean_of_means) aboveMean++;
 	});
 
-	meansArr = meansArr.sort((a,b) => a - b);
+	meansArr.sort((a,b) => a - b);
+	acceptedArr.sort((a,b) => a - b);
+	rejectedArr.sort((a,b) => a - b);
 
 	return {
-		count: meansArr.length,
+		total_count: meansArr.length,
+		acceptance: `${(acceptedArr.length / meansArr.length * 100).toFixed(0)}%`,
 		mean_of_means,
+		accepted: {
+			count: acceptedArr.length,
+			mean: parseInt(stats.mean(acceptedArr)),
+			high: acceptedArr[acceptedArr.length - 1],
+			low: acceptedArr[0]
+		},
+		rejected: {
+			count: rejectedArr.length,
+			mean: parseInt(stats.mean(rejectedArr)),
+			high: rejectedArr[rejectedArr.length - 1],
+			low: rejectedArr[0],
+		},
 		median: parseInt(stats.median(meansArr)),
 		high: meansArr[meansArr.length - 1],
 		low: meansArr[0],
@@ -140,16 +170,38 @@ function findMatches(array){
 	return props;
 };
 
+function findStatus(array){
+	var result = {};
+	for(let i = 0; i < array.length; i++){
+		let status = array[i]['status'];
+		let id = array[i]['id'];
+
+		result[id] = status;
+	};
+	return result;
+};
+
+function printJSON(object, filter){
+	for(var key in object){
+		console.log(key, JSON.stringify(
+			!filter ? object[key] : object[key][filter],
+			null,
+			4
+			)
+		);
+	};
+};
+
 ///// DATA /////
 
-var table = processData(db_reviews); // array
-var trimmed = trimScores(table); // array
+var table_props = processData(db_props);
+var status_props = findStatus(table_props);
 
-var scoresObj = createPropObj(trimmed);
-// var statsObj = createStatsObj(idScores);
+var table_reviews = processData(db_reviews); // array
+var trimmed_reviews = trimScores(table_reviews, status_props); // array
 
-// console.log(idScores);
-// console.log(statsObj);
-for(var key in scoresObj){console.log(key, JSON.stringify(scoresObj[key].statistics, null, 4));};
+var scoresObj = createPropObj(trimmed_reviews);
+
+printJSON(scoresObj, 'statistics')
 // console.log(JSON.stringify(scoresObj, null, 4));
-// console.log(findMatches(trimmed));
+

@@ -7,4 +7,5 @@
 	define("PASSWORD","password");
 	define("DATABASE","ev");
 	define("SECURE",FALSE); //we don't have HTTPS availabe, so this must be false
+	$propOpen = true;
 ?>

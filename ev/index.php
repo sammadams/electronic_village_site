@@ -1,9 +1,10 @@
 <?php
-	include_once('./ev_config.php');
-	include_once('./ev_library.php');
-	// include_once('./sched_main.php');
+	//include_once('../../ev_config.php');
+	//include_once('../../ev_library.php');
+	//include_once('./sched_main.php');
+	include_once('./ev_dev.php');
 
-	// if(!$propOpen) redirect('propClosed.php');
+	if(!$propOpen) redirect('propClosed.php');
 
 	$evtStmt = $db->prepare("SELECT id, event, webDescription, propLink, webTitle, coordinator, coordinatorEmail FROM events WHERE getsProposals = 'Y' AND isActive = 'Y' ORDER BY id ASC");
 	$evtStmt->execute();
